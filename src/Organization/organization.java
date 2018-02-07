@@ -12,6 +12,13 @@ package Organization;
 public class organization {
     public static void main(String[] args) {
         Student st = new Student("Ariya","SIT KMUTT","0959563239","ariya.bchxxiice@mail.kmutt.ac.th",Student.Status.freshman);
-        System.out.println(st);     
-    }
+        Person p = new Person("Ariya","SIT KMUTT","0959563239","ariya.bchxxiice@mail.kmutt.ac.th");
+        Employee e = new Employee ("Ariya","SIT KMUTT","0959563239","ariya.bchxxiice@mail.kmutt.ac.th","IT",10000);
+//        System.out.println(st);
+//        System.out.println("\tEmail gen : "+st.genEmail());
+//        System.out.println(p.toString());
+//        System.out.println(p.genEmail());
+        System.out.println(e);
+        System.out.println("\temail gen : "+p.genEmail());
+    }   
 }
