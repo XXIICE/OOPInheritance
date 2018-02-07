@@ -21,7 +21,7 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return this.name+"\n\taddress : "+this.address+"\n\tphone : "+this.phoneNumber+"\n\temail : "+this.emailAddress+"\n\tstatus : "+this.status;
+        return super.toString()+"\n\tstatus : "+this.status;
     }
 
     
