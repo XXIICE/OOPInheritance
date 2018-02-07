@@ -29,5 +29,7 @@ public class Person {
     public String toString() {
         return this.name+"\n\taddress : "+this.address+"\n\tphone : "+this.phoneNumber+"\n\temail : "+this.emailAddress;
     }
-    
+    public String genEmail(){
+        return this.name .toLowerCase()+"@sit.kmutt.ac.th";    
+    }
 }
